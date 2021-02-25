@@ -22,3 +22,15 @@ E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.Gene
 E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
 E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.exe
 E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.pdb
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.exe
+C:\Users\Boazv\OneDrive\Documenten\GitHub\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
