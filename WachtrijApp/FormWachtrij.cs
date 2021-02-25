@@ -20,7 +20,7 @@ namespace WachtrijApp
 
             if (++clickcount == 10)
             {
-                MessageBox.Show("Gefeliciteerd Je heb de Easter Egg gevonden!!");
+                MessageBox.Show("Gefeliciteerd je heb de Easter Egg gevonden!!");
                 clickcount = 0;
             }
         }
