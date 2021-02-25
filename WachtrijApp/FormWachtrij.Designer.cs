@@ -36,6 +36,8 @@
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
             this.labelKar3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +62,7 @@
             this.labelWachttijd.Size = new System.Drawing.Size(99, 25);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
+            this.labelWachttijd.Click += new System.EventHandler(this.labelWachttijd_Click);
             // 
             // labelWachttijdMelding
             // 
@@ -77,7 +80,7 @@
             this.AttractieLogo.BackColor = System.Drawing.Color.Transparent;
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(170, 87);
+            this.AttractieLogo.Location = new System.Drawing.Point(216, 129);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(110, 141);
             this.AttractieLogo.TabIndex = 6;
@@ -119,13 +122,33 @@
             this.labelKar3.Text = "Kar 3: ...";
             this.labelKar3.Click += new System.EventHandler(this.lbl3_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(216, 28);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Reset";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(216, 68);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // FormWachtrij
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tomato;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(279, 227);
+            this.ClientSize = new System.Drawing.Size(324, 269);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
@@ -152,6 +175,8 @@
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
         private System.Windows.Forms.Label labelKar3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
