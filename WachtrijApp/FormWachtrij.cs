@@ -12,11 +12,17 @@ namespace WachtrijApp
         }
 
         //  Er is op het logo geklikt. Die actie start een event welke de onderstaande methode aanroept.
+        private int clickcount { get; set; }
         private void AttractieLogo_Click(object sender, EventArgs e)
         {
             VerwerkWachtrijSensorData();
-
             VerwerkAttractieStatusData();
+
+            if (++clickcount == 10)
+            {
+                MessageBox.Show("Gefeliciteerd je heb de Easter Egg gevonden!!");
+                clickcount = 0;
+            }
         }
 
         private void VerwerkWachtrijSensorData()
