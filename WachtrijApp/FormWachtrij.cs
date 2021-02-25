@@ -194,5 +194,10 @@ namespace WachtrijApp
         {
 
         }
+
+        private void labelWachttijd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
