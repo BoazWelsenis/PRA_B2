@@ -187,12 +187,22 @@ namespace WachtrijApp
 
         private void labelKar2_Click(object sender, EventArgs e)
         {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("SensorData\\AttractieStatus.xml");
 
+                string node2 = doc.DocumentElement.SelectSingleNode("/Status/Kar02").InnerText;
+                string status2 = ConvertStatus(node2);
+                this.labelKar2.Text = $"Kar 2: {status2}";
         }
 
         private void lbl3_Click(object sender, EventArgs e)
         {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("SensorData\\AttractieStatus.xml");
 
+            string node3 = doc.DocumentElement.SelectSingleNode("/Status/Kar03").InnerText;
+            string status3 = ConvertStatus(node3);
+            this.labelKar3.Text = $"Kar 3: {status3}";
         }
 
         private void labelWachttijd_Click(object sender, EventArgs e)
@@ -203,6 +213,30 @@ namespace WachtrijApp
         private void button2_Click(object sender, EventArgs e)
         {
             VerwerkAttractieStatusData();
+        }
+
+        private void labelWachttijdMelding_Click(object sender, EventArgs e)
+        {
+            VerwerkWachtrijSensorData();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int Wachttijd = 0;
+            this.labelWachttijdMelding.Text = $"{Wachttijd} minuten";
+            this.labelKar1.Text = "Kar 1: ...";
+            this.labelKar2.Text = "Kar 2: ...";
+            this.labelKar3.Text = "Kar 3: ...";
+        }
+
+        private void labelKar1_Click(object sender, EventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("SensorData\\AttractieStatus.xml");
+
+            string node1 = doc.DocumentElement.SelectSingleNode("/Status/Kar01").InnerText;
+            string status1 = ConvertStatus(node1);
+            this.labelKar1.Text = $"Kar 1: {status1}";
         }
     }
 }

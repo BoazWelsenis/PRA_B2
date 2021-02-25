@@ -76,6 +76,7 @@
             this.labelWachttijdMelding.Size = new System.Drawing.Size(71, 18);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
+            this.labelWachttijdMelding.Click += new System.EventHandler(this.labelWachttijdMelding_Click);
             // 
             // AttractieLogo
             // 
@@ -111,6 +112,7 @@
             this.labelKar1.Size = new System.Drawing.Size(57, 18);
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
+            this.labelKar1.Click += new System.EventHandler(this.labelKar1_Click);
             // 
             // labelKar3
             // 
@@ -132,6 +134,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -146,7 +149,7 @@
             // timer1
             // 
             this.timer1.Interval = 10000;
-            this.timer1.Tick += new System.EventHandler(this.button2_Click);
+            this.timer1.Tick += new System.EventHandler(this.labelWachttijdMelding_Click);
             // 
             // FormWachtrij
             // 
