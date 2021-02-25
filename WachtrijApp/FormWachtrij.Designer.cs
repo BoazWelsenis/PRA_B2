@@ -150,7 +150,7 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 10000;
-            this.timer1.Tick += new System.EventHandler(this.labelWachttijdMelding_Click);
+            this.timer1.Tick += new System.EventHandler(this.AttractieLogo_Click);
             // 
             // FormWachtrij
             // 

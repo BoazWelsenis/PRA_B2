@@ -207,7 +207,7 @@ namespace WachtrijApp
 
         private void labelWachttijd_Click(object sender, EventArgs e)
         {
-
+            VerwerkWachtrijSensorData();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -217,7 +217,6 @@ namespace WachtrijApp
 
         private void labelWachttijdMelding_Click(object sender, EventArgs e)
         {
-            VerwerkAttractieStatusData();
             VerwerkWachtrijSensorData();
         }
 
