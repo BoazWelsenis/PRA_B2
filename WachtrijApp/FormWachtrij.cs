@@ -46,14 +46,14 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 6;
+            Wachttijd += 3.5;
 
             string node02 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor02").InnerText;
             if (node02 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 6;
+            Wachttijd += 3.5;
 
             string node03 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor03").InnerText;
             if (node03 == "False")
