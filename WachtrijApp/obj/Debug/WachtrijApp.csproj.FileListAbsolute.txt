@@ -10,3 +10,15 @@ C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cac
 C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
 C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.exe
 C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.pdb
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.pdb
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.exe
+E:\Blok B\(PRA) Praktijk\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
