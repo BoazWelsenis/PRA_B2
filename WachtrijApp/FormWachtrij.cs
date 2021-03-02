@@ -244,5 +244,10 @@ namespace WachtrijApp
             string status1 = ConvertStatus(node1);
             this.labelKar1.Text = $"Kar 1: {status1}";
         }
+
+        private void labelTitel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
